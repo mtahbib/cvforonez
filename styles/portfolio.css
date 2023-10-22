@@ -137,13 +137,19 @@ main section {
 #what-i-do-description {
     padding: 1.88rem 9.375rem;
     text-align: center;
+    max-width: 80vw;
 }
 
 .skills-container {
     display: flex;
     gap: 1.5rem;
+margin-top: 1rem;
 }
-
+.skills-container1 {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
 .skill {
     padding: 30px;
 
@@ -297,6 +303,7 @@ justify-content:center
     height: 30vh;
     padding: 0rem 0rem;
     text-align: center;
+    margin: 0 auto;
 }
 .profile-pic {
     gap: 10ox;
