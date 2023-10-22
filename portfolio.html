@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Onez Chowdhury</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.3/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f056a62cc9.js" crossorigin="anonymous"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  backgroundImage: {
+                    'hero-bg': "url('./images/yellow-bg.jpg')",
+                  },
+                },
+              },
+            }
+          </script>
+    </head>
+<body>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </label>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Homepage</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>About</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a class="btn btn-ghost normal-case text-xl">Welcome to my Project Showcase</a>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
+          <button class="btn btn-ghost btn-circle">
+            <div class="indicator">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+              <span class="badge badge-xs badge-primary indicator-item"></span>
+            </div>
+          </button>
+        </div>
+      </div>
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque adipisci enim, quidem reprehenderit autem excepturi vitae optio corporis distinctio eum velit tempore animi eaque odit aliquid nam illo totam similique!15</h1>
+    </section>
+    <!-- latest bikes -->
+    <section class="my-24">
+        <h3 class="text-5xl mb-12 font-semibold text-center">My Projects</h3>
+        <div class="grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+            <!-- first card -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="./icons/4164916.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title text-3xl">Portal for Enterprise</h2>
+                    <p>Truck Lagbe aims to revamp the existing Business Portal which will help in handling our Brokerage client’s operational process and it will also help Business Team to retain and onboard new clients in our trucking ecosystem while revamping it we should consider SAAS as we will be building it next</p>
+                    <div class="card-actions">
+                       <a href="portal.html"><button class="btn btn-primary">Read More</button></a>
+                    </div>
+                </div>
+            </div>
+            <!-- second card -->
+            <div class="card bg-base-100 shadow-xl">
+                <figure><img src="./icons/money.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                    <h2 class="card-title text-3xl">Auto Payment Disbursement from App</h2>
+                    <p>Currently, the disbursement process for Owner(Supplier) App Users and Admin Panel Users is manual and time-consuming. It takes around 24-36 hours to receive the payment. The goal of this requirement is to streamline the process by allowing Owner App Users to disburse from their wallet to their desired MFS account and Admin Panel Users to disburse the payment from the Admin Panel with a single click, thus increasing efficiency and reducing the time required for the disbursement process.</p>
+                    <div class="card-actions">
+                       <button class="btn btn-primary">Read More</button>
+                    </div>
+                </div>
+            </div>
+<!-- third card -->
+<div class="card bg-base-100 shadow-xl">
+    <figure><img src="./icons/2atm.png" alt="Shoes" /></figure>
+    <div class="card-body">
+        <h2 class="card-title text-3xl">B2B Automated Payment System </h2>
+        <p>Truck Lagbe, a transportation company, faces a significant challenge with its brokerage payment system. The issue at hand is the lack of authenticity and efficiency in the payment process. The entire process is manual, which not only leads to errors but also results in delays and frustrations for both suppliers and the company itself. The absence of a streamlined and automated payment system hampers the company's ability to ensure timely and accurate payments to its suppliers</p>
+        <div class="card-actions">
+           <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div>
+<div class="card bg-base-100 shadow-xl">
+    <figure><img src="./icons/truck.png" alt="Shoes" /></figure>
+    <div class="card-body">
+        <h2 class="card-title text-3xl">SAAS: Vendor & Fleet Management</h2>
+        <p>As a business owner, managing multiple vendors can be a challenging task. Keeping track of their contact information, services offered, and payment history manually can be time-consuming and prone to errors. Currently, vendor management is done manually, which is time-consuming and prone to errors. The lack of a centralized system makes it difficult to keep track of the vendors, their services, and their payment history.</p>
+        <div class="card-actions">
+           <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div>
+<div class="card bg-base-100 shadow-xl">
+    <figure><img src="./icons/card.png" alt="Shoes" /></figure>
+    <div class="card-body">
+        <h2 class="card-title text-3xl">Internal Billing Process Automation</h2>
+        <p>Currently, for completing the full Billing process, Billing Team requires various kinds of information on a specific trip which they collect manually via WhatsApp or phone. Also, they need to collect Challan and update various into their Accounting software manually.
+            Complete the whole billing process takes a lot of time due to lack of information. </p>
+        <div class="card-actions">
+           <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div> 
+<div class="card bg-base-100 shadow-xl">
+    <figure><img src="./icons/worker.png" alt="Shoes" /></figure>
+    <div class="card-body">
+        <h2 class="card-title text-3xl">Delivery App Revamp</h2>
+        <p>The current delivery operation process lacks an efficient and streamlined method for handling disputes and change requests, leading to operational inefficiencies, delays, and customer dissatisfaction. To address these issues, a new Admin Panel for Delivery Operations is proposed.</p>
+        <div class="card-actions">
+           <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div>
+<div class="card bg-base-100 shadow-xl">
+    <figure><img src="./icons/paper.png" alt="Shoes" /></figure>
+    <div class="card-body">
+        <h2 class="card-title text-3xl">Paperfly GO App</h2>
+        <p>Paperfly is a platform committed to transforming the package sending and receiving experience, emphasizing simplicity, swiftness, and effectiveness. Whether you need to send a single package or handle a substantial quantity of deliveries, Paperfly assures a seamless and convenient solution.</p>
+        <div class="card-actions">
+           <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div>
+<div class="card bg-base-100 shadow-xl">
+    <figure><img src="./icons/download.png" alt="Shoes" /></figure>
+    <div class="card-body">
+        <h2 class="card-title text-3xl">Internal Billing Process Automation</h2>
+        <p>The current access control mechanism in the admin panel of Truck Lagbe relies on backend groupings, which lack the ability to assign user-specific access permissions. This results in the following challenges:</p>
+        <div class="card-actions">
+           <button class="btn btn-primary">Read More</button>
+        </div>
+    </div>
+</div>
+        </div>
+    </section>
+</body>
+</html>
