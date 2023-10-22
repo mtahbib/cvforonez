@@ -2,6 +2,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
+    background-color: #ecf3f5;
 }
 
 .text-primary {
@@ -84,6 +85,7 @@ nav a {
 
 .profile-pic {
     max-width: 50%;
+    margin-right: 10rem;
 }
 
 .banner-greeting {
@@ -114,7 +116,7 @@ main section {
     max-width: 100%;
     padding: 8.13rem;
     border-radius: 10px;
-    background: #c7bffb1e;
+    /* background: #c7bffb1e; */
    margin-top: 1rem;
 }
 
@@ -133,7 +135,8 @@ main section {
 }
 
 #what-i-do-description {
-    padding: 30px 150px;
+    padding: 1.88rem 9.375rem;
+    text-align: center;
 }
 
 .skills-container {
@@ -265,7 +268,11 @@ justify-content:center
     .banner-content{
     margin: 0 auto;
     direction: flex;
-        
+
+    .profile-pic {
+        padding-right: 1000000px;
+      
+    }
 
        
     }
@@ -284,6 +291,17 @@ justify-content:center
 .skills-container{
     display: flex;
     flex-direction: column;
+}
+#what-i-do-description {
+    width: 100vw;
+    height: 30vh;
+    padding: 0rem 0rem;
+    text-align: center;
+}
+.profile-pic {
+    gap: 10ox;
+    max-width: 50%;
+    margin-right: 0rem;
 }
 
 
