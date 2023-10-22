@@ -19,6 +19,7 @@ body {
 }
 
 .section-title {
+margin-top: -4rem;
     color: #181818;
     text-align: center;
     font-size: 35px;
@@ -78,6 +79,7 @@ nav a {
 .banner-content {
     text-align: center;
     max-width: 50%;
+    margin-left: 3.5rem;
 }
 
 .profile-pic {
@@ -104,15 +106,16 @@ main {
 }
 
 main section {
-    margin-top: 130px;
+    
 }
 
 /* about section styles */
-.about {
-    padding: 130px;
+.about {    
+    max-width: 100%;
+    padding: 8.13rem;
     border-radius: 10px;
-    background: #FFF8F3;
-    margin: 130px 0;
+    background: #c7bffb1e;
+   margin-top: 1rem;
 }
 
 .about-info-container {
@@ -125,6 +128,9 @@ main section {
 }
 
 /* skills related styles */
+.what{
+    margin-top:5rem;
+}
 
 #what-i-do-description {
     padding: 30px 150px;
@@ -132,7 +138,7 @@ main section {
 
 .skills-container {
     display: flex;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .skill {
@@ -234,13 +240,13 @@ justify-content:center
     }
     .hireme {
         width: 100%;
-        height: 10%;
+        height: 50%;
         margin-top: 10px;
         border-radius: 5px;
         background: #0a7bfd;
         border: 0;
         color: white;
-        font-size: 20px;
+        font-size: 1rem;
         font-weight: 700;
         
     }
@@ -257,12 +263,29 @@ justify-content:center
         margin-bottom: 20px;
     }
     .banner-content{
-       margin: left 10rem; ;
-        direction: flex;
+    margin: 0 auto;
+    direction: flex;
         
 
        
     }
-   
-    
+    .section-title {
+        margin-bottom: 1rem;
+        padding-top: 0px;    
+}
+       .about-info-container{
+        flex-direction: column;
+       }
+
+
+.section-description{
+    width: 120%;
+}
+.skills-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
 }
